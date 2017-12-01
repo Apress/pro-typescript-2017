@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Knockout App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+</head>
+<body>
+    <h1>Your seat reservations (<span data-bind="text: seats().length"></span>)</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Passenger name</th>
+                <th>Meal</th>
+                <th>Surcharge</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: seats">
+            <tr>
+                <td><input data-bind="value: name" /></td>
+                <td><select data-bind="options: $root.availableMeals, value: meal, optionsText: 'mealName'"></select></td>
+                <td data-bind="text: formattedPrice"></td>
+                <td><a href="#" data-bind="click: $root.removeSeat">Remove</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button data-bind="click: addSeat, enable: seats().length < 5">Reserve another seat</button>
+
+    <h2 data-bind="visible: totalSurcharge() > 0">
+        Total surcharge: $<span data-bind="text: totalSurcharge().toFixed(2)"></span>
+    </h2>
+    <script src="knockout.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+C:\Users\Steve.Fenton.GERONIMO\Source\Repos\NodeApp\NodeApp\obj\Debug\NodeApp.njsprojResolveAssemblyReference.cache
+C:\Users\Steve.Fenton.GERONIMO\Source\Repos\NodeApp\NodeApp\obj\Debug\NodeApp.njsproj.CoreCompileInputs.cache
+C:\Users\Steve.Fenton.GERONIMO\Source\Repos\NodeApp\NodeApp\bin\Microsoft.NodejsTools.WebRole.dll

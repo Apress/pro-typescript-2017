@@ -1,0 +1,4 @@
+﻿XCOPY $(ProjectDir)Scripts\TypeSpec\*.d.ts $(ProjectDir)dist\src\ /y
+XCOPY $(ProjectDir)Scripts\TypeSpec\*.js $(ProjectDir)dist\src\ /y
+XCOPY $(SolutionDir)README.md $(ProjectDir)dist\ /y
+XCOPY $(ProjectDir)package.json $(ProjectDir)dist\ /y

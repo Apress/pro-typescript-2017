@@ -1,0 +1,11 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/jest": "^21.1.0",
+    "jest": "^21.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

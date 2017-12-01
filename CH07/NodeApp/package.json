@@ -1,0 +1,25 @@
+{
+  "name": "pro-typescript-book-app",
+  "version": "0.0.1",
+  "description": "An example book application",
+  "main": "server.js",
+  "types": "server.d.ts",
+  "author": {
+    "name": "Steve.Fenton"
+  },
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.4",
+    "method-override": "2.3.9",
+    "mongoose": "4.11.9",
+    "pug": "2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.16.5",
+    "@types/express": "4.0.37",
+    "@types/method-override": "0.0.30",
+    "@types/mongoose": "4.7.21",
+    "@types/node": "8.0.26",
+    "@types/pug": "2.0.4"
+  }
+}

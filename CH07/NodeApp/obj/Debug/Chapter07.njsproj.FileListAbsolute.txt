@@ -1,0 +1,3 @@
+C:\Users\steve\OneDrive\Books\Pro TypeScript 2nd\2ndEditionCode\CH7\NodeApp\obj\Debug\Chapter07.njsprojResolveAssemblyReference.cache
+C:\Users\steve\OneDrive\Books\Pro TypeScript 2nd\2ndEditionCode\CH7\NodeApp\obj\Debug\Chapter07.njsproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Books\Pro TypeScript 2nd\2ndEditionCode\CH7\NodeApp\bin\Microsoft.NodejsTools.WebRole.dll
